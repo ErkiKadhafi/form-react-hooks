@@ -75,6 +75,8 @@ function App() {
                         id="password"
                         type="password"
                         name="password"
+                        value={inputValues.password}
+                        onChange={handleChange}
                     />
                     {/* <p className="mt-3 text-red-500 text-xs italic">
                         Please choose a password.
